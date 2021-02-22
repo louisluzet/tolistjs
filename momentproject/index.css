@@ -1,0 +1,94 @@
+body{
+    background-color: #02343F;
+}
+.js-clock{
+    padding-top: 10%;
+    font-size: 60px;
+    font-family: 'Brygada 1918', serif;
+    font-family: 'Inter', sans-serif;   
+    color:white;
+    letter-spacing :0.5px;
+    text-align: center;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.clicked{
+    color:#B0DACC;
+}
+.btn{
+    cursor:pointer;
+}
+
+.greetings{
+    display:none;
+}
+.showing{
+    display:block;
+
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+
+
+.bgImage{
+    position:absolute;
+    top:0;
+    left:0;
+    border:0;
+    padding: 0;
+    width:100%;
+    min-height:100%;
+    z-index:-1;
+    animation: fadeIn 0.5s linear;
+    background-size: cover;
+    background-position: center;
+}
+
+#wea{
+    padding-top: 0%;
+    top:0%;
+    margin:0%;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;
+    color:white;
+}
+
+
+#usertodo{
+    text-align: center;
+    border-bottom:2px solid #fff;
+    width:100%;
+    padding-top:4px;
+    background: 0;
+    border:0;
+    
+   
+
+}
+#usename{
+    display: none;
+}
+.greetings{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0%;
+    padding-top: 0%;
+    color: white;
+    font-family: 'Brygada 1918', serif;
+    font-family: 'Inter', sans-serif;   
+}
+ul{
+    text-align: center;
+    font-family: 'Brygada 1918', serif;
+    font-family: 'Inter', sans-serif;   
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+}
