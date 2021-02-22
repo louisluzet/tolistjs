@@ -1,2 +1,2 @@
-# tolistjs
+# todolistjs
 ToDo List with VanillaJS
